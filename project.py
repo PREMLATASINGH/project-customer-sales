@@ -20,3 +20,6 @@ print(df.idxmax())
 print(df.idxmin())
 print(df.isnull().sum())
 print(df.dropna(inplace=True))
+revenue=df['price']*df['quantity']
+print(revenue)
+print(df)
