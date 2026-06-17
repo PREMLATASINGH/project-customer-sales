@@ -23,3 +23,8 @@ print(df.dropna(inplace=True))
 revenue=df['price']*df['quantity']
 print(revenue)
 print(df)
+plt.hist(df['total_amount'], bins=20)
+plt.xlabel('Total Amount')
+plt.ylabel('Frequency')
+plt.title('Distribution of Total Amount')
+plt.show()
